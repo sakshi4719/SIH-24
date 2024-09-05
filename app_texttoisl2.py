@@ -1,3 +1,7 @@
+# Takes the text and finds the corresponding ISL videos for it
+# Since it is difficult to play multiple videos one after another, it gets the paths of all the videos
+# For example, "I Can Ask You" returns the 4 corresponding mp4 videos of ISL
+
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel

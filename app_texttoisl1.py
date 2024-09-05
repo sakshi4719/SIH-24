@@ -1,3 +1,6 @@
+# Finds the word in the ISL folder and plays the video corresponding to the word found
+# Cannot play multiple word videos one after another in FASTAPI its tricky
+
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel

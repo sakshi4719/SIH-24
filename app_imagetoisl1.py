@@ -1,4 +1,6 @@
 # Takes an image, reads the text (word) in it and displays the corresponding ISL video for the word
+# Cannot be done for multiple words (yet)
+
 import os
 import time
 import cv2
